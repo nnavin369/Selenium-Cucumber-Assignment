@@ -1,0 +1,687 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Selenium-Cucumber-Assignment</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c43b89d03a7c43dae8bb8f0f078bad1997af6b3b/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Selenium-Cucumber-Assignment - Automation Test Report</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jan 19, 2023 12:55:19 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@quizMeFeature</a><a class="dropdown-item" href="#">@quizReportFeature</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag="@quizReportFeature"
+          device="">
+          <div class="test-detail">
+            <p class="name">Login into unext application with Invalid credentials for failure test case</p>
+            <p class="text-sm">
+              <span>00:55:21 AM</span> / <span>30:15:406</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Login into unext application with Invalid credentials for failure test case</h5>
+<span class='badge badge-success'>01.19.2023 00:55:21</span>
+<span class='badge badge-danger'>01.19.2023 00:55:36</span>
+<span class='badge badge-default'>30:15:406</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">@quizReportFeature</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Login into unext application with Invalid credentials</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinitions.StepDefinitions.i_am_on_the_login_page_url(java.lang.String)">
+                <span>Given I am on the Login page URL "https://capgemini-edunxtqa01.unext.tech"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.StepDefinitions.i_enter_registered_email_id_as(java.lang.String)">
+                <span>Then I enter registered emailId as "automation2@yopmail.com"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.StepDefinitions.i_click_on_login_button_and_wait_for_unext_login_page()">
+                <span>Then I click on login button and wait for Unext login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.StepDefinitions.i_enter_password_as(java.lang.String)">
+                <span>Then I enter password as "test@321"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.StepDefinitions.i_click_on_login_button()">
+                <span>And I Click on Login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="stepdefinitions.StepDefinitions.i_should_see_dashboard_page_after_login()">
+                <span>Then I should see dashboard page after login</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepdefinitions.StepDefinitions.i_should_see_dashboard_page_after_login(StepDefinitions.java:174)
+	at ?.I should see dashboard page after login(classpath:features/Failure.feature:10)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step pass-bg" >
+                <span>stepdefinitions.StepDefinitions.tearDown(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='../embedded1.png' src="../embedded1.png">
+    
+    </div></div>
+</div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag="@quizMeFeature"
+          device="">
+          <div class="test-detail">
+            <p class="name">Quiz Me for Automation Task</p>
+            <p class="text-sm">
+              <span>00:55:41 AM</span> / <span>32:07:756</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Quiz Me for Automation Task</h5>
+<span class='badge badge-success'>01.19.2023 00:55:41</span>
+<span class='badge badge-danger'>01.19.2023 00:57:49</span>
+<span class='badge badge-default'>32:07:756</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">@quizMeFeature</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="12"><span class="badge log pass-bg mr-2">Pass</span>After Logged in navigate to Start Quiz Page and Attempt all questions</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinitions.StepDefinitions.i_am_on_the_login_page_url(java.lang.String)">
+                <span>Given I am on the Login page URL "https://capgemini-edunxtqa01.unext.tech"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.StepDefinitions.i_enter_registered_email_id_as(java.lang.String)">
+                <span>Then I enter registered emailId as "automation2@yopmail.com"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.StepDefinitions.i_click_on_login_button_and_wait_for_unext_login_page()">
+                <span>Then I click on login button and wait for Unext login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.StepDefinitions.i_enter_password_as(java.lang.String)">
+                <span>Then I enter password as "test@123"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.StepDefinitions.i_click_on_login_button()">
+                <span>And I Click on Login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.StepDefinitions.i_should_see_dashboard_page()">
+                <span>Then I should see Dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.StepDefinitions.i_should_see_dashboard_page()">
+                <span>Given I should see Dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.StepDefinitions.i_click_on_all_courses_button()">
+                <span>Then I click on All Courses button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.StepDefinitions.click_on_automation_course_link_from_course_list_page()">
+                <span>And click on Automation Course link from course list page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.StepDefinitions.click_on_go_to_content_area_button_from_automation_course_page()">
+                <span>Then click on Go to Content Area button from Automation Course page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.StepDefinitions.click_on_quiz_link_from_course_dashboard()">
+                <span>Then click on Quiz link from Course Dashboard</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.StepDefinitions.click_on_automation_task_link_from_automation_task_page()">
+                <span>And click on Automation Task link from Automation Task page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.StepDefinitions.click_on_start_quiz_button_from_automation_task_page()">
+                <span>Then click on Start Quiz button from Automation Task page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.StepDefinitions.select_answer_based_on_the_question_type_and_click_next_button_for_next_question()">
+                <span>Then select Answer based on the question type and click Next button for next question</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.StepDefinitions.repeat_the_above_steps_untill_reach_end_of_questions_and_click_on_submit()">
+                <span>Then repeat the above steps untill reach end of questions and click on submit</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.StepDefinitions.Given_print_the_quiz_related_details()">
+                <span>Then print the quiz related details</span>
+      <div>***************Marks Scored Questionwise***************
+      </div>
+      <div>1:Marks 2/2
+      </div>
+      <div>2:Mark 0/4
+      </div>
+      <div>3:Marks 2/2
+      </div>
+      <div>4:Mark 0/4
+      </div>
+      <div>5:Mark 0/3
+      </div>
+      <div>************************************************************
+      </div>
+      <div>Total Attempted Count display before Start Quiz : 299
+      </div>
+      <div>No of Attempted Count display in report : 248
+      </div>
+      <div>Both Attempted counts are not Equal
+      </div>
+      <div>Scored Marks ==>> 4, out of Total Marks ==>> 15
+      </div>
+      <div>Quiz timer Beofre Submit :00:09:02
+      </div>
+      <div>Total time taken for each question :00:01:02
+      </div>
+      <div>Time taken for each question :Optional[00:00:23 , 00:00:9 , 00:00:9 , 00:00:9 , 00:00:12]
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.StepDefinitions.validate_the_attempted_number_display_during_quiz_start_page_and_noofattempts_in_report_are_equal()">
+                <span>Then validate the attempted number display during quiz start page and noofattempts in report are equal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.StepDefinitions.compare_the_time_taken_before_submit_and_validate_with_report()">
+                <span>Then compare the time taken before submit and validate with report</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">java.lang.AssertionError</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.AssertionError</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:55:36 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='9'>Then I should see dashboard page after login</a>
+<div class="">
+<span class="badge badge-default">Login into unext application with Invalid credentials for failure test case.Login into unext application with Invalid credentials.Then I should see dashboard page after login</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@quizMeFeature</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@quizMeFeature</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:55:41 AM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>Quiz Me for Automation Task</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:55:41 AM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='12'>After Logged in navigate to Start Quiz Page and Attempt all questions</a>
+<div class="">
+<span class="badge badge-default">Quiz Me for Automation Task.After Logged in navigate to Start Quiz Page and Attempt all questions</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@quizReportFeature</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@quizReportFeature</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:55:21 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>Login into unext application with Invalid credentials for failure test case</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:55:21 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Login into unext application with Invalid credentials</a>
+<div class="">
+<span class="badge badge-default">Login into unext application with Invalid credentials for failure test case.Login into unext application with Invalid credentials</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jan 19, 2023 12:55:19 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jan 19, 2023 12:57:54 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>1</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='50%'>
+<b>1</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='50%'><b>1</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='50%'><b>1</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='50%'><b>1</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='96%'><b>24</b> steps passed</small></div>
+<div>
+<small data-tooltip='4%'><b>1</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Login into unext application with Invalid credentials for failure test case":15.406,"Quiz Me for Automation Task":127.756
+};
+</script>
+<div class="row">
+<div class="col-md-4 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@quizMeFeature</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@quizReportFeature</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-md-4 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>build</td>
+<td>1.0</td>
+</tr>
+<tr>
+<td>user</td>
+<td>Navin Nagarajan</td>
+</tr>
+<tr>
+<td>AppName</td>
+<td>Selenium-Cucumber-Assignment</td>
+</tr>
+<tr>
+<td>os</td>
+<td>Windows</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 1,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 1,
+failChild: 1,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 24,
+failGrandChild: 1,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@14e9bb345ef7e2ed3a102f271d84e9f0267c88e7/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
